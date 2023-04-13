@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e9d4b6097826110183dbe80f053af73" label="Bugs" max_length="40" name="x_386027_bughoun_0_bugs" type="collection">
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="x_386027_bughoun_0_employee" type="reference"/>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Date of Testing" max_length="40" name="date_of_testing" type="glide_date"/>
+        <element label="Functional Area" max_length="32" name="functional_area" reference="x_386027_bughoun_0_areas" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Bug ID" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element label="Problem" max_length="40" name="problem" type="string"/>
+        <element label="Problem Summary" max_length="40" name="problem_summary" type="string"/>
+        <element label="Program" max_length="32" name="program" reference="x_386027_bughoun_0_programs" type="reference"/>
+        <element label="Reported By" max_length="32" name="reported_by" reference="x_386027_bughoun_0_employee" type="reference"/>
+        <element choice="1" label="Report Type" max_length="40" name="report_type" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Resolution" max_length="40" name="resolution" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Resolution version" max_length="40" name="resolution_version" type="choice">
+            <choice/>
+        </element>
+        <element label="Resolved By" max_length="32" name="resolved_by" reference="x_386027_bughoun_0_employee" type="reference"/>
+        <element label="Resolved Date" max_length="40" name="resolved_date" type="glide_date"/>
+        <element choice="1" label="Severity" max_length="40" name="severity" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Tested By" max_length="32" name="tested_by" reference="x_386027_bughoun_0_employee" type="reference"/>
+        <element choice="1" label="Treat as ?" max_length="40" name="treat_as" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="functional_area"/>
+        </index>
+        <index name="index3">
+            <element name="program"/>
+        </index>
+        <index name="index4">
+            <element name="reported_by"/>
+        </index>
+        <index name="index5">
+            <element name="resolved_by"/>
+        </index>
+        <index name="index6">
+            <element name="tested_by"/>
+        </index>
+    </element>
+</database>

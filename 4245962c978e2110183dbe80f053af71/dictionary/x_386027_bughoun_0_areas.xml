@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c6ba8fec97426110183dbe80f053af6b" label="Areas" max_length="40" name="x_386027_bughoun_0_areas" type="collection">
+        <element label="Area" max_length="40" name="area" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Area ID" max_length="40" name="number" type="string"/>
+        <element label="Program ID" max_length="40" name="program_id" reference="x_386027_bughoun_0_programs" type="reference"/>
+    </element>
+</database>

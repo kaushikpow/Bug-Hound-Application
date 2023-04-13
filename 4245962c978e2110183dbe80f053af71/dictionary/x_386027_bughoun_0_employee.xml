@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7c240b2897426110183dbe80f053af7d" label="Employees" max_length="40" name="x_386027_bughoun_0_employee" type="collection">
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee ID" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Password" mandatory="true" max_length="40" name="password" type="string"/>
+        <element label="Username" mandatory="true" max_length="40" name="username" type="string"/>
+        <element label="User level" mandatory="true" max_length="40" name="user_level" type="string"/>
+    </element>
+</database>

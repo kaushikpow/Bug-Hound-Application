@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 02:12:02</sys_created_on>
+        <sys_id>835ac72097826110183dbe80f053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_386027_bughoun_0_programs.x_386027_bughoun_0.programs_user</sys_name>
+        <sys_package display_value="BugHound Tracking System" source="x_386027_bughoun_0">4245962c978e2110183dbe80f053af71</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BugHound Tracking System">4245962c978e2110183dbe80f053af71</sys_scope>
+        <sys_security_acl display_value="x_386027_bughoun_0_programs">875ac72097826110183dbe80f053affa</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_835ac72097826110183dbe80f053affd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 02:12:02</sys_updated_on>
+        <sys_user_role display_value="x_386027_bughoun_0.programs_user" name="x_386027_bughoun_0.programs_user">f25a4fe897426110183dbe80f053af62</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

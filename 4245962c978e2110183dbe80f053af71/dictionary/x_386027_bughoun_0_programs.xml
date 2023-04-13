@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5ab9cbe897426110183dbe80f053af93" label="Programs" max_length="40" name="x_386027_bughoun_0_programs" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Program ID" max_length="40" name="number" type="string"/>
+        <element display="true" label="Program" max_length="40" name="program" type="string"/>
+        <element label="Program Release" max_length="40" name="program_release" type="string"/>
+        <element label="Program Version" max_length="40" name="program_version" type="string"/>
+    </element>
+</database>
